@@ -13,12 +13,43 @@ public class Strings {
 //        String fullName=firstName+lastName;
 //        System.out.println(fullName);
 
+        //String Builder for Performance instead of 2nd Approach
+//        String[] strings =
+//                new String[]{"one", "two", "three", "four", "five"};
+//
+//        StringBuilder temp  = new StringBuilder();
+//        for(String string : strings) {
+//            temp.append(string);
+//        }
+//        String result = temp.toString();
+//        System.out.println(result);
+
+        //2nd Approach -> (The problem with this approach is that every iteration string builder copies the
+        // result and apppend the item and then create a new string object.
+//        String[] strings  = {"one","Two","Three","Four","Five"};
+//        String result = "";
+//        for(var str:strings){
+//            result = result+str;
+//        }
+//
+//        System.out.println(result);
+
         //Length
 //        System.out.println(fullName.length());
 
         //chatAt
 //        for(int i=0;i<fullName.length();i++){
 //            System.out.println(fullName.charAt(i));
+//        }
+
+        //Index Of
+//        String theString = "is this good or is this bad?";
+//        String substring = "is";
+//
+//        int index = theString.indexOf(substring);
+//        while(index != -1) {
+//            System.out.println(index);
+//            index = theString.indexOf(substring, index + 1);
 //        }
 
         //Compare
@@ -59,8 +90,8 @@ public class Strings {
 //        System.out.println(name);
 
         //Strings are immutable
-        String name ="Dushyan";
-        name = name+"t";
-        System.out.println(name);
+//        String name ="Dushyan";
+//        name = name+"t";
+//        System.out.println(name);
     }
 }

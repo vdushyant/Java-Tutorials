@@ -1,0 +1,27 @@
+# Eclipse specific
+.settings/
+.project
+.classpath
+
+#Intellij Specific
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Build output
+out/
+target/
+bin/
+classes/
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
